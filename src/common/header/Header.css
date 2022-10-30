@@ -1,0 +1,30 @@
+.header {
+  background-color: #222;
+  height: 46px;
+  color: antiquewhite;
+  padding: 8px 32px 8px 16px;
+}
+
+.header-logo {
+  background-color: #ff7f7f;
+  height: 35px;
+  /* animation-timing-function: linear;
+    animation-duration: 8s; */
+  animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotateY(180deg);
+  }
+
+  50% {
+    transform: rotateY(360deg);
+  }
+
+  100% {
+    transform: rotateY(180deg);
+  }
+}
+
+/*MODAL COMPONENT*/
